@@ -1,0 +1,15 @@
+.admin-commandes-container {
+
+    padding: 2rem;
+}
+
+.admin-commandes-container ul{
+    padding-left: 1rem;
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.admin-commandes-container h2{
+margin-bottom: 1rem;
+font-size: 35px;
+}

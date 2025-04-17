@@ -1,0 +1,108 @@
+.reservation-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.reservation-container h2 {
+  font-size: 35px;
+}
+
+.reservation-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: #E5E5E5;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.reservation-container form input {
+  width: fit-content;
+  padding: 2px 4px;
+
+}
+
+.reservation-container table {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 1rem;
+  
+}
+
+.reservation-container td {
+    padding: 2px 4px;
+    text-align: center; /* ← centre le contenu dans le td */
+    vertical-align: middle;
+  }
+
+  .reservation-container button {
+background-color: #153556;
+color: white;
+font-weight: bold;
+padding: 12px 24px;
+display: inline-block;
+border: none;
+border-radius: 5px;
+width: fit-content;
+margin: auto;
+cursor: pointer;
+transition: 0.3s ease;
+  }
+
+  .reservation-container button:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.3s ease;
+    transform: translateY(-2px);
+      }
+  
+  .reservation-container td input[type="checkbox"] {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  @media (max-width: 768px) {
+
+    .reservation-container {
+        padding: 1rem;
+      }
+
+    .reservation-container form {
+        width: 100%;
+        padding: 1rem;
+        font-size: 14px;
+      }
+
+     
+   
+      .reservation-container td {
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        white-space: normal;
+        text-align: left;
+      }
+
+      .reservation-container td input[type="number"] {
+        width: 100%;
+        max-width: 30px;
+        padding: 4px;
+        box-sizing: border-box;
+      }
+      
+      
+      .reservation-container th,
+      .reservation-container td {
+        width: fit-content;
+      
+      }
+
+  }
+  
